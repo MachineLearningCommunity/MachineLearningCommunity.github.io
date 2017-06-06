@@ -1,0 +1,33 @@
+# Site settings
+## Change the values as needed.
+title: Machine learnning Community
+email: ahmed.buhmid94@gmail.com
+description: "Website for Machine learning enthusiast"
+keywords: "python,machine learning , data science , c++, tensorFlow , computer vision , "
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: brijeshb42
+  twitter: brijeshb42
+  email: ahmed.bouhmid94@gmail.com
+  github: https://github.com/MachineLearningTunisie
+exclude:
+  - bower_components
+  - README.md
+full_name: Ahmed Rebai
+
+##set this to enable disqus commenting
+disqus: bitwiser
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
